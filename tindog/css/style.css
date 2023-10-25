@@ -4,6 +4,12 @@
                 font-family: "Montserrat";
                 text-align: center;
             }
+            h1,h2,h3,h4,h5,h6{
+                font-family: "Montserrat-Bold";
+            }
+            p{
+                color: #8f8f8f;
+            }
 
             .container-fluid {
                 padding: 7% 15%;
@@ -68,6 +74,27 @@
                 right: 30%;
             }
 
+            /* features */
+            #feature{
+                position: relative;
+            }
+            .feature-box{
+                padding: 4.5%;
+            }
+            .feature-title{
+                font-size: 1.5rem;
+            }
+            .icon{
+                color: #ef8172;
+                margin-bottom: 1rem;
+            }
+
+
+
+
+
+
+            /* for advanced rwd */
             @media (max-width:1028px){
                 #title{
                     text-align: center;
