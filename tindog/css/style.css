@@ -89,11 +89,42 @@
                 margin-bottom: 1rem;
             }
 
-
-
-
-
-
+            /* testimonial */
+            #testimonials, #press{
+                background-color: #ef8172;
+            }
+            .testimonial-text{
+                font-size: 3rem;
+                line-height: 1.5;;
+            }
+            .testimonial-image{
+                width: 10%;
+                border-radius: 100%;
+                margin: 20px;
+            }
+            /* press */
+            #press{
+                padding-bottom: 3%;
+            }
+            .press-logo{
+                width: 15%;
+                margin: 20px 20px 50px;
+            }
+            /* pricing */
+            #pricing{
+                padding: 100px;
+            }
+            .price-text{
+                font-size: 3rem;
+                line-height: 1.5;
+            }
+            .pricing-column{
+                padding: 3% 2%;
+            }
+            /* footer */
+            .social-icon{
+                margin: 20px 10px;
+            }
             /* for advanced rwd */
             @media (max-width:1028px){
                 #title{
