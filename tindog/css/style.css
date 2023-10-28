@@ -90,7 +90,10 @@
             }
 
             /* testimonial */
-            #testimonials, #press{
+            #testimonials{
+                background-color: #ef8172;
+            }
+            #press{
                 background-color: #ef8172;
             }
             .testimonial-text{
